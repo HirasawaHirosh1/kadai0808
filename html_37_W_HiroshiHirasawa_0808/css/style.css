@@ -1,0 +1,215 @@
+/* ここから下に記載していく */
+/* .box1{
+    /* height: 300px;
+    width: 1000px;
+    background:url(../img/mainbg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+    /* background: url(../img/mainbg.png)no-repeat center center;
+    background-size:cover;
+    height: 300px;
+    width: 1000px;     
+}* */
+
+.body {
+  background: white;
+}
+.video-wrap {
+  position: relative;
+}
+
+header{
+    display: flex ;
+}
+
+.hitokoto {
+    font-weight: lighter;
+    padding: 35px 100px 0px 0px;
+    font-size: x-small;
+}
+    
+
+nav{
+    display: contents;
+    
+}
+
+
+nav {
+    float: left;
+    width: 200px;
+    list-style-type: none;
+}
+ 
+a {
+    display: block;
+    padding: 35px 20px;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+ 
+a:hover {
+    opacity: 0.5 ;
+}
+
+
+
+.pattern {
+    width: 80%;
+    height: 100%;
+    background: url(http://www.webcreatorbox.com/sample/images/yokojima.png);
+    position: absolute;
+    left: 10%;
+    z-index: 2;
+}
+video {
+    display: block;
+    margin: auto;
+    height: 20%;
+    WIDTH: 80%;
+}
+.box1 {
+    font-family: serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: 900%;
+    position: absolute;
+    left: 11%;
+    right: 0%;
+    top: 30%;
+    z-index: 3;
+}
+.box2 {
+    font-family: serif;
+    color: #fff;
+    font-size: 130%;
+    position: absolute;
+    left: 51%;
+    top: 95%;
+    z-index: 3;
+}
+h1{
+font-size: 24px;
+color:#ffd61a;
+font-weight: bold;
+text-align: center;
+padding: 30px 10px;
+}
+
+.box3{
+text-align: center;
+line-height: 50px;
+padding: 30px;
+font-size: 16px;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.logo {
+    padding: 10px 30px 0px 0px;
+}
+
+.abou01{
+width: 300px;
+height: 230px;
+}
+
+.box4 {
+    padding: 0px 10px 20px 10px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.bbox1 {
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+}
+.box5 {
+    line-height: 30px;
+    text-align: justify;
+    padding: 110px 30px 70px 30px;
+    background-color: #fafafa;
+}
+
+.cou01 {
+    height: 400px;
+    width: 524px;
+}
+
+.news__wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.access {
+    padding: 60px 0 0;
+    width: 100%;
+    background: #fafafa;
+}
+.secTtl {
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    font-family: 'Roboto Slab', serif;
+}
+.secTxt {
+    margin-bottom: 60px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #888;
+}
+.access__gmap {
+    width: 100%;
+    height: 400px;
+}
+
+.access__detail {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.access__detail table {
+    display: inline-block;
+    margin: 0 0 60px 10px;
+    text-align: left;
+    border-collapse: separate;
+    border-spacing: 40px 0;
+    line-height: 50px;
+    font-size: 16px;
+}
+
+.btn {
+    border: none;
+    display: block;
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    color: #fff;
+    font-size: 18px;
+    line-height: 60px;
+    text-align: center;
+    margin: 60px auto;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    font-family: 'Noto Serif JP', serif;
+}
